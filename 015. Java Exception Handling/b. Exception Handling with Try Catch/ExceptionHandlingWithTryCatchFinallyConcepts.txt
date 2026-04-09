@@ -1,0 +1,16 @@
+try{
+    // codes to monitor
+} catch(ExceptionType1 e1) {
+    // Exception handler
+} catch(ExceptionType2 e2) {
+    // Exception handler
+}
+...
+finally{
+    // block of code to be executed after try block
+}
+
+
+1. finally almost always runs even program fails to catch Exception
+2. example : file close, database connection close, resource clean up
+3. finally block is used to execute important cleanup code that must run whether exception occurs or not.
