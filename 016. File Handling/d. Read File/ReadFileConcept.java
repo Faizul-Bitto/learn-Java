@@ -6,7 +6,7 @@ public class ReadFileConcept {
     public static void main(String[] args) {
 
         try {
-            File file = new File("D:/learn-Java/016. File Handling/d. Read File/student.txt");
+            File file = new File("D:/learn-Java/016. File Handling/d. Read File/students.txt");
 
             Scanner sc = new Scanner(file);
 
@@ -19,8 +19,8 @@ public class ReadFileConcept {
 
             sc.close();
 
-        } catch (Exception e) {
-            System.out.println(e);
+        } catch (Exception ex) {
+            System.out.println(ex);
         }
     }
 }

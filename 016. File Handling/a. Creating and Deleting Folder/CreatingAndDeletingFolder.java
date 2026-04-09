@@ -8,8 +8,8 @@ public class CreatingAndDeletingFolder {
         File folder = new File("D:/learn-Java/016. File Handling/a. Creating and Deleting Folder/Folder");
         folder.mkdir();
 
-        String folderLocation = folder.getAbsolutePath();
-        System.out.println(folderLocation);
+        String folderPath = folder.getAbsolutePath();
+        System.out.println(folderPath);
 
         String folderName = folder.getName();
         System.out.println(folderName);

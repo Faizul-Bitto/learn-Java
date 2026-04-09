@@ -9,8 +9,8 @@ public class CreatingAndDeletingFile {
         try {
             file.createNewFile();
             System.out.println("File created.");
-        } catch (Exception e) {
-            System.out.println(e);
+        } catch (Exception ex) {
+            System.out.println(ex);
         }
 
         if (file.exists()) {
